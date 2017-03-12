@@ -1,0 +1,4 @@
+/Users/radoslaw.urbanczyk/Projects/CPP/First/bin/Debug/First.exe
+/Users/radoslaw.urbanczyk/Projects/CPP/First/bin/Debug/First.exe.mdb
+/Users/radoslaw.urbanczyk/Projects/CPP/First/obj/x86/Debug/First.exe
+/Users/radoslaw.urbanczyk/Projects/CPP/First/obj/x86/Debug/First.exe.mdb
