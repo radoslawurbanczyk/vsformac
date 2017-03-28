@@ -24,6 +24,9 @@ namespace First
 			fiat.is_moving();
 			fiat.stop();
 			fiat.is_moving();
+
+			int max = FirstInstance.wybierz_max(1, 1, 8);
+			Console.WriteLine(max);
 		}
 
 		public void Display()
@@ -51,6 +54,30 @@ namespace First
 					Console.Write(((iloczyn < 100) ? " " : "") + ((iloczyn<10) ? " " : "") + iloczyn + ((j < 10) ? " " : ""));
 				}
 				Console.WriteLine();
+			}
+		}
+
+		public int wybierz_max(int a, int b, int c)
+		{
+			if (a<=0 || b<=0 || c<=0)
+			{
+				Console.WriteLine("Podano wartości ujemne. Popraw!");
+				return 0;
+			}
+			else
+			{
+				if (a > b && a > c)
+				{
+					return a;
+				}
+				else if (b > a && b > c)
+				{
+					return b;
+				}
+				else
+				{
+					return c;
+				}
 			}
 		}
 	}
