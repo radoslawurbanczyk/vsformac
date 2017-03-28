@@ -12,6 +12,18 @@ namespace First
 			int substaction = FirstInstance.CountSubstract(6, 8);
 			Console.WriteLine(substaction);
 			FirstInstance.TabliczkaMnozenia();
+			Samochody fiat;
+			fiat = new Samochody();
+			fiat.przebieg = 10000;
+			Console.WriteLine(fiat.przebieg.ToString());
+			Console.WriteLine(fiat.kolor.ToString());
+			Console.WriteLine(fiat.rok_prod.ToString());
+			//Console.WriteLine(fiat.moving.ToString());
+			fiat.is_moving();
+			fiat.move();
+			fiat.is_moving();
+			fiat.stop();
+			fiat.is_moving();
 		}
 
 		public void Display()

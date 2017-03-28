@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{DE91A411-A0E8-4185-8CDF-09D5B5EB3146}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="First/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="First/Samochody.cs">
     <Files>
-      <File FileName="First/Program.cs" Line="11" Column="1" />
+      <File FileName="First/Program.cs" Line="26" Column="21" />
+      <File FileName="First/Samochody.cs" Line="12" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
